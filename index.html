@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        .intro {
+            height: 100vh;
+            background: linear-gradient(to right, rgb(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+                linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+                url(introBg.jpeg) center center/cover no-repeat;
+            display: flex;
+            align-items: center;
+        }
+
+        .heading {
+            font-weight: 600;
+            font-size: 48px;
+            margin: 0;
+            text-align: center;
+        }
+
+        .videos {
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .videos video {
+            border-radius: 13px;
+            margin: 2%;
+            height: 70vh;
+        }
+
+        .introText {
+            width: 40vw;
+            margin-left: 15%;
+        }
+
+        .akash {
+            font-weight: 600;
+            font-size: 90px;
+            margin: 0;
+            color: #6366f1;
+        }
+
+        .greet {
+            font-weight: 400;
+            font-size: 28px;
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .heading {
+                font-size: 32px;
+            }
+
+            .introText {
+                width: auto;
+                margin: 5%;
+            }
+
+            .intro {
+                background: linear-gradient(to bottom, rgb(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(introP.jpeg) center center/cover no-repeat;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="intro">
+        <div class="introText">
+            <span class="greet">Greetings! I'm</span><br>
+            <span class="akash">Akash</span>
+            <p>Welcome to my website, where each frame and cut has a story to tell. Within 1.5 years, I have helped
+                different creators wordwide to outshine on youtube and instagram.
+                Dive into our video editing portfolio to discover the diverse narrative possibilities.<br><br> Whether
+                you're a content creator looking to enhance your brand or an agency owner in need of captivating
+                visuals, my portfolio showcases skilled editing and unparalleled creativity for anyone looking to
+                outshine
+                on social media. Join me on this journey.</p>
+        </div>
+    </div>
+
+    <div class="heading" style="margin: 32px 0;">Short Form Videos</div>
+    <div class="videos">
+        <iframe style="aspect-ratio: 9/16; border-radius: 13px; margin: 12px 2%;" height="608px" width="auto"
+            src="https://www.youtube-nocookie.com/embed/GoYbrSxjYv0?si=81A0YTedWF1uBzbM&amp;controls=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe style="aspect-ratio: 9/16; border-radius: 13px; margin: 12px 2%;" height="608px" width="auto"
+            src="https://www.youtube-nocookie.com/embed/11vCzy7vzwI?si=9zI93exWck-TLGVy&amp;controls=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="heading" style="margin: 32px 0;">Long Form Videos</div>
+    <div class="videos">
+        <iframe style="aspect-ratio: 16/9; border-radius: 13px; margin: 12px 2%;" width="560" height="auto"
+            src="https://www.youtube-nocookie.com/embed/v-gm4Qixewk?si=D_OXNAdi-oVBZytA&amp;controls=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <iframe style="aspect-ratio: 16/9; border-radius: 13px; margin: 12px 2%;" width="560" height="auto"
+            src="https://www.youtube-nocookie.com/embed/-NoEffNuSyM?si=IW8KD5TFpsdf5rJ-&amp;controls=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </div>
+
+    <div class="gallery">
+        <div class="bg-black py-6 sm:py-8 lg:py-12">
+            <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+                <div class="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
+                    <div class="flex items-center gap-12">
+                        <h2 class="text-2xl font-bold text-gray-100 lg:text-5xl">I Edit</h2>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+                    <!-- image - start -->
+                    <a
+                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                        <img src="https://i.postimg.cc/qMQMBg0C/pexels-george-milton-6953672.jpg" loading="lazy"
+                            alt="Photo by Minh Pham"
+                            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                        <div
+                            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                        </div>
+
+                        <span
+                            class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Podcast</span>
+                    </a>
+                    <!-- image - end -->
+
+                    <!-- image - start -->
+                    <a
+                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                        <img src="https://i.postimg.cc/wMTZwqrS/pexels-nappy-3602934.jpg" loading="lazy"
+                            alt="Photo by Magicle"
+                            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                        <div
+                            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                        </div>
+
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Story
+                            Telling</span>
+                    </a>
+                    <!-- image - end -->
+
+                    <!-- image - start -->
+                    <a
+                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                        <img src="https://i.postimg.cc/nV0sxz5G/pexels-fox-1615824.jpg" loading="lazy"
+                            alt="Photo by Martin Sanchez"
+                            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                        <div
+                            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                        </div>
+
+                        <span
+                            class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Vlog</span>
+                    </a>
+                    <!-- image - end -->
+
+                    <!-- image - start -->
+                    <a
+                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                        <img src="https://i.postimg.cc/k4ky2GDB/pexels-justin-brinkhoff-5860950.jpg" loading="lazy"
+                            alt="Photo by Lorenzo Herrera"
+                            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                        <div
+                            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                        </div>
+
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Commercial</span>
+                    </a>
+                    <!-- image - end -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="heading">My Journey</div>
+    <div class="stats">
+        <div class="bg-black mb-12">
+            <div class="mx-auto max-w-screen-lg px-4 md:px-8">
+                <!-- text - start -->
+                <div class="mb-2 md:mb-8">
+                    <p class="mx-auto max-w-screen-md text-center text-gray-300 md:text-lg">I've the privilege of
+                        partnering with numerous clients throughout my career.</p>
+                </div>
+                <!-- text - end -->
+
+                <div class="grid grid-cols-2 gap-6 rounded-lg bg-indigo-500 p-6 md:grid-cols-4 md:gap-8 md:p-8">
+                    <!-- stat - start -->
+                    <div class="flex flex-col items-center">
+                        <div class="text-xl font-bold text-white sm:text-2xl md:text-3xl">1.5+</div>
+                        <div class="text-sm text-indigo-200 sm:text-base">Years Experience</div>
+                    </div>
+                    <!-- stat - end -->
+
+                    <!-- stat - start -->
+                    <div class="flex flex-col items-center">
+                        <div class="text-xl font-bold text-white sm:text-2xl md:text-3xl">3+</div>
+                        <div class="text-sm text-indigo-200 sm:text-base">Int. Clients</div>
+                    </div>
+
+                    <!-- stat - start -->
+                    <div class="flex flex-col items-center">
+                        <div class="text-xl font-bold text-white sm:text-2xl md:text-3xl">100+</div>
+                        <div class="text-sm text-indigo-200 sm:text-base">Videos Edited</div>
+                    </div>
+                    <!-- stat - end -->
+
+                    <!-- stat - start -->
+                    <div class="flex flex-col items-center">
+                        <div class="text-xl font-bold text-white sm:text-2xl md:text-3xl">100%</div>
+                        <div class="text-sm text-indigo-200 sm:text-base">Client Satisfaction</div>
+                    </div>
+                    <!-- stat - end -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
